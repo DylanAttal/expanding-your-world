@@ -2,8 +2,231 @@ html {
   height: 100%;
 }
 
+p {
+  line-height: 1.5em;
+}
+
+.navbar {
+  background-color: royalblue;
+  position: fixed;
+  top: 0;
+  padding: 0px 50px;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: black;
+  color: white;
+}
+
 body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+#main-pic {
+  width: 100%;
+  height: auto;
+}
+
+#main-banner {
+  background-color: black;
+  height: auto;
+  width: 100%;
+}
+
+#main-banner p {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#welcome-div {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#welcome-div p {
+  font-size: 18px;
+}
+
+#icon-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+#icon-div img {
+  height: 100px;
+  width: 100px;
+}
+
+#icon-div p {
+  font-size: 20px;
+}
+
+footer {
+  background-color: royalblue;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+}
+
+#top-div {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#top-div p {
+  font-size: 18px;
+}
+
+#bottom-div {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#bottom-div p {
+  font-size: 18px;
+}
+
+#rousey-imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+}
+
+#rousey-imgs img {
+  height: 250px;
+  width: auto;
+}
+
+#rousey-imgs p {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: rgb(77, 77, 77);
+}
+
+#lower-imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+}
+
+#lower-imgs p {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: rgb(77, 77, 77);
+}
+
+#sensei {
+  height: 300px;
+  width: auto;
+}
+
+#whole-crew {
+  height: 300px;
+  width: auto;
+}
+
+#Gracie-Tampa-pics {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+}
+
+#Gracie-Tampa-pics img {
+  height: 250px;
+  width: auto;
+}
+
+#Gracie-pics-caption {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
+
+#table-div {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  border: 3px solid #ccc;
+  padding: 3px;
+}
+
+th {
+  background-color: #7a7a7a;
+  font-weight: bold;
+}
+
+tr:nth-child(even) td {
+  background-color: #f1f1f1;
+}
+
+tr:nth-child(odd) td {
+  background-color: #fefefe;
+}
+
+tr td:hover {
+  background-color: #666;
+  color: #fff;
 }
